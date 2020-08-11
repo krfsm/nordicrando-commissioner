@@ -1,0 +1,83 @@
+[{
+    "race": 1,
+    "racers": [{
+        "racer1": "HayfieldBay",
+        "racer2": "Nobly"
+    }],
+    "selections": [{
+        "racer1": [{
+            "dungeonItem": "keysanity",
+            "worldState": "inverted",
+            "hints": "on"
+            }],
+        "racer2": [{
+            "dungeonItem": "keysanity",
+            "goal": "pedestal",
+            "worldState": "inverted",
+            "swords": "vanilla",
+            "hints": "on"
+        }]
+    }],
+    "vetosYes": [{
+        "racer1": [{
+            "entrance": "off"
+        }],
+        "racer2": [{
+            "enemizer": "off",
+            "openTower": 7
+        }]
+    }],
+    "vetosNo": [{
+        "racer1": [{
+            "swords": "swordless"
+        }],
+        "racer2": []
+    }],
+    "collisionOutcomes": []
+},
+{
+    "race": 2,
+    "racers": [{
+        "racer1": "Nobly",
+        "racer2": "Krithel"
+    }],
+    "selections": [{
+        "racer1": [{
+            "dungeonItem": "keysanity",
+            "goal": "triforceHunt",
+            "openTower": 0,
+            "itemPool": "expert",
+            "itemFunctionality": "expert"
+        }],
+        "racer2": [{
+            "dungeonItem": "mcShuffle",
+            "goal": "fastGanon",
+            "enemizer": "random",
+            "openTower": 6,
+            "ganonVulnerable": 4
+        }]
+    }],
+    "vetosYes": [{
+        "racer1": [{
+            "worldState": "open",
+            "enemizer": "off"
+        }],
+        "racer2": [{
+            "worldState": "open",
+            "swords": "randomized"
+        }]
+    }],
+    "vetosNo": [{
+        "racer1": [],
+        "racer2": []
+    }],
+    "collisionOutcomes": [{
+        "dungeonItem": "racer2",
+        "goal": "racer1",
+        "enemizer": "racer1",
+        "itemPool": "racer1",
+        "towerOpen": "racer1",
+        "ganonVulnerable": "racer2",
+        "itemFunctionality": "racer1"
+    }]
+}]
