@@ -1,97 +1,129 @@
 [{
-    "item placement": [{
-        "dungeonItems": [
-            "standard",
-            "mcShuffle",
-            "mcsShuffle",
-            "keysanity"
-        ],
-        "itemPlacement": [
-            "basic",
-            "advanced"
-        ],
-        "accessibility": [
-            "inventory100",
-            "locations100",
-            "beatable"
-        ]
+    "itemPlacement": [{
+        "dungeonItems": [{
+            "settings": [
+                "standard",
+                "mcShuffle",
+                "mcsShuffle",
+                "keysanity"
+            ],
+            "default": "standard"
+        }],
+        "itemPlacement": [{
+            "settings": [
+                "basic",
+                "advanced"
+            ],
+            "default": "basic"
+        }],
+        "accessibility": [{
+            "settings": [
+                "inventory100",
+                "locations100",
+                "beatable"
+            ],
+            "default": "inventory100"
+        }]
     }],
     "gameGoal": [{
-        "goal": [
-            "defeatGanon",
-            "fastGanon",
-            "allDungeons",
-            "pedestal",
-            "triforceHunt"
-        ],
-        "openTower": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-        ],
-        "ganonVulnerable": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-        ]
+        "goal": [{
+            "settings": [
+                "defeatGanon",
+                "fastGanon",
+                "allDungeons",
+                "pedestal",
+                "triforceHunt"
+            ],
+            "default": "defeatGanon"
+        }],
+        "openTower": [{
+            "settings": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "default": "7"
+        }],
+        "ganonVulnerable": [{
+            "settings": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "default": "7"
+        }]
     }],
     "gameplay": [{
-        "worldState": [
-            "standard",
-            "open",
-            "inverted",
-            "retro"
-        ],
-        "entranceShuffle": [
-            "none",
-            "simple",
-            "restricted",
-            "full",
-            "crossed",
-            "insanity"
-        ],
-        "bossShuffle": [
-            "none",
-            "simple",
-            "full",
-            "random"
-        ],
-        "enemyShuffle": [
-            "none",
-            "shuffled",
-            "random"
-        ],
-        "hints": [
+        "worldState": [{
+            "settings": [
+                "standard",
+                "open",
+                "inverted",
+                "retro"
+            ],
+            "default": "standard"
+        }],
+        "entranceShuffle": [{
+            "settings": [
+                "none",
+                "simple",
+                "restricted",
+                "full",
+                "crossed",
+                "insanity"
+            ],
+            "default": "none"
+        }],
+        "enemizer": [{
+            "settings": [
+                "no",
+                "yes"
+            ],
+            "default": "no"
+        }],
+        "hints": [{
+            "settings": [
             "on",
             "off"
-        ]
+            ],
+            "default": "off"
+        }]
     }],
     "difficulty": [{
-        "swords": [
-            "randomized",
-            "assured",
-            "vanilla",
-            "swordless"
-        ],
-        "itemPool": [
-            "normal",
-            "hard",
-            "expert"
-        ],
-        "itemFunctionality": [
-            "normal",
-            "hard",
-            "expert"
-        ]
+        "swords": [{
+            "settings": [
+                "randomized",
+                "assured",
+                "vanilla",
+                "swordless"
+            ],
+            "default": "randomized"
+        }],
+        "itemPool": [{
+            "settings": [
+                "normal",
+                "hard",
+                "expert"
+            ],
+            "default": "normal"
+        }],
+        "itemFunctionality": [{
+            "settings": [
+                "normal",
+                "hard",
+                "expert"
+            ],
+            "default": "normal"
+        }]
     }]
 }]

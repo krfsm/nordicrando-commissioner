@@ -18,14 +18,15 @@
             "hints": "on"
         }]
     }],
-    "vetosYes": [{
-        "racer1": [{
-            "entrance": "off"
-        }],
-        "racer2": [{
-            "enemizer": "off",
-            "openTower": 7
-        }]
+    "vetos": [{
+        "racer1": [
+            "entrance",
+            "swords"
+        ],
+        "racer2": [
+            "enemizer",
+            "openTower"
+        ]
     }],
     "vetosNo": [{
         "racer1": [{
@@ -52,24 +53,20 @@
         "racer2": [{
             "dungeonItem": "mcShuffle",
             "goal": "fastGanon",
-            "enemizer": "random",
+            "enemizer": "yes",
             "openTower": 6,
             "ganonVulnerable": 4
         }]
     }],
-    "vetosYes": [{
-        "racer1": [{
-            "worldState": "open",
-            "enemizer": "off"
-        }],
-        "racer2": [{
-            "worldState": "open",
-            "swords": "randomized"
-        }]
-    }],
-    "vetosNo": [{
-        "racer1": [],
-        "racer2": []
+    "vetos": [{
+        "racer1": [
+            "worldState",
+            "enemizer"
+        ],
+        "racer2": [
+            "worldState",
+            "swords"
+        ]
     }],
     "collisionOutcomes": [{
         "dungeonItem": "racer2",
