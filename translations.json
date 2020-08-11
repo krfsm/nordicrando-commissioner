@@ -78,11 +78,7 @@
         "entranceShuffle": [{
             "settings": [{
                 "none": "None",
-                "simple": "Simple",
-                "restricted": "Restricted",
-                "full": "Full",
-                "crossed": "Crossed",
-                "insanity": "Insanity"
+                "crossed": "Crossed"
             }],
             "string": "Entrance Shuffle"
         }],

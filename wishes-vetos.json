@@ -1,16 +1,16 @@
 [{
     "race": 1,
     "racers": [{
-        "racer1": "HayfieldBay",
-        "racer2": "Nobly"
+        "racer0": "HayfieldBay",
+        "racer1": "Nobly"
     }],
     "selections": [{
-        "racer1": [{
+        "racer0": [{
             "dungeonItem": "keysanity",
             "worldState": "inverted",
             "hints": "on"
             }],
-        "racer2": [{
+        "racer1": [{
             "dungeonItem": "keysanity",
             "goal": "pedestal",
             "worldState": "inverted",
@@ -19,38 +19,32 @@
         }]
     }],
     "vetos": [{
-        "racer1": [
+        "racer0": [
             "entrance",
             "swords"
         ],
-        "racer2": [
+        "racer1": [
             "enemizer",
             "openTower"
         ]
-    }],
-    "vetosNo": [{
-        "racer1": [{
-            "swords": "swordless"
-        }],
-        "racer2": []
     }],
     "collisionOutcomes": []
 },
 {
     "race": 2,
     "racers": [{
-        "racer1": "Nobly",
-        "racer2": "Krithel"
+        "racer0": "Nobly",
+        "racer1": "Krithel"
     }],
     "selections": [{
-        "racer1": [{
+        "racer0": [{
             "dungeonItem": "keysanity",
             "goal": "triforceHunt",
             "openTower": 0,
             "itemPool": "expert",
             "itemFunctionality": "expert"
         }],
-        "racer2": [{
+        "racer1": [{
             "dungeonItem": "mcShuffle",
             "goal": "fastGanon",
             "enemizer": "yes",
@@ -59,22 +53,22 @@
         }]
     }],
     "vetos": [{
-        "racer1": [
+        "racer0": [
             "worldState",
             "enemizer"
         ],
-        "racer2": [
+        "racer1": [
             "worldState",
             "swords"
         ]
     }],
     "collisionOutcomes": [{
-        "dungeonItem": "racer2",
-        "goal": "racer1",
-        "enemizer": "racer1",
-        "itemPool": "racer1",
-        "towerOpen": "racer1",
-        "ganonVulnerable": "racer2",
-        "itemFunctionality": "racer1"
+        "dungeonItem": "racer1",
+        "goal": "racer0",
+        "enemizer": "racer0",
+        "itemPool": "racer0",
+        "towerOpen": "racer0",
+        "ganonVulnerable": "racer1",
+        "itemFunctionality": "racer0"
     }]
 }]

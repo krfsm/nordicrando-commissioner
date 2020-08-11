@@ -76,11 +76,7 @@
         "entranceShuffle": [{
             "settings": [
                 "none",
-                "simple",
-                "restricted",
-                "full",
-                "crossed",
-                "insanity"
+                "crossed"
             ],
             "default": "none"
         }],
